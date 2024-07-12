@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=32252ca6_002D9838_002D4209_002Db9c7_002Da8f7ea369a5d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Key_Should_Be_Derived" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FF4883F1-F830-44F9-8C18-CAEC7243AC62::net8.0::CSharpAssessment.Tests.EncryptionServiceTests.Key_Should_Be_Derived&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FF4883F1-F830-44F9-8C18-CAEC7243AC62::net8.0::CSharpAssessment.Tests.EncryptionServiceTests.DI_WhenEncryptionServiceIsRegistered_ShouldResolveIEncryptionService&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ba316463_002Df25f_002D462c_002Dbbd7_002D74bd6c5fb02b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DI_WhenEncryptionServiceIsRegistered_ShouldResolveIEncryptionService" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FF4883F1-F830-44F9-8C18-CAEC7243AC62::net8.0::CSharpAssessment.Tests.EncryptionServiceTests.DI_WhenEncryptionServiceIsRegistered_ShouldResolveIEncryptionService&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

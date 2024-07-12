@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssessment", "CSharpAssessment\CSharpAssessment.csproj", "{3D98373B-FE13-4293-BBB9-B6A6D035C663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssessment.Tests", "CSharpAssessment.Tests\CSharpAssessment.Tests.csproj", "{FF4883F1-F830-44F9-8C18-CAEC7243AC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D98373B-FE13-4293-BBB9-B6A6D035C663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D98373B-FE13-4293-BBB9-B6A6D035C663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D98373B-FE13-4293-BBB9-B6A6D035C663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D98373B-FE13-4293-BBB9-B6A6D035C663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4883F1-F830-44F9-8C18-CAEC7243AC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4883F1-F830-44F9-8C18-CAEC7243AC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4883F1-F830-44F9-8C18-CAEC7243AC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4883F1-F830-44F9-8C18-CAEC7243AC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
