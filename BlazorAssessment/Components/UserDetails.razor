@@ -1,0 +1,19 @@
+﻿@using BlazorAssessment.Data
+@inherits ComponentBase
+
+<div class="modal fade show d-block" tabindex="-1" style="background-color: rgba(0,0,0,0.5);">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #f8f9fa;">
+            <div class="modal-header" style="background-color: #f8f9fa;">
+                <h5 class="modal-title">@SelectedUser.UserName</h5>
+                <button type="button" class="btn-close" @onclick="CloseModal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="background-color: #f8f9fa;">
+                <p>Last Login: @SelectedUser.LastLoginDate.ToString("g")</p>
+            </div>
+            <div class="modal-footer" style="background-color: #f8f9fa;">
+                <button type="button" class="btn btn-secondary" @onclick="CloseModal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

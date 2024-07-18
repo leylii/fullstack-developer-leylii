@@ -1,0 +1,14 @@
+﻿@page "/"
+@using BlazorAssessment.Data
+@using BlazorAssessment.Components
+@using System.Collections.Generic
+@inherits ComponentBase
+
+<div class="page-background">
+    <UserList Users="users" OnUserSelected="ShowUserDetails" />
+
+    @if (showModal && selectedUser != null)
+    {
+            <UserDetails SelectedUser="selectedUser" OnClose="CloseModal" />
+    }
+</div>

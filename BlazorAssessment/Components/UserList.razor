@@ -1,0 +1,24 @@
+﻿@using BlazorAssessment.Data
+@inherits ComponentBase
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-start m-3">Users</h2>
+        </div>
+    </div>
+    <div class="row justify-content-start m-auto">
+        @foreach (var user in Users)
+        {
+            <div class="col-12 col-md-3 col-lg-2 d-flex align-items-stretch">
+                <div class="card shadow-sm mb-4 larger-card  card-hover-shadow card-background"
+                     @onclick="() => HandleUserClick(user)">
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">@user.UserName</h5>
+                        <p class="card-text text-truncate">@user.UserEmail</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

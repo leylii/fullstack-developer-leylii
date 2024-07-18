@@ -1,0 +1,23 @@
+﻿.card-hover-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+    .card-hover-shadow:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+    }
+
+.larger-card {
+    height: 200px;
+    padding: 10px;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.card-background {
+    background-color: #f8f9fa;
+}
